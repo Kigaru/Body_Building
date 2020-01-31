@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 106204931}
   - component: {fileID: 106204933}
   - component: {fileID: 106204934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: head1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 912352472}
   - component: {fileID: 912352475}
   - component: {fileID: 912352476}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arm (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -487,7 +487,7 @@ HingeJoint2D:
   m_ConnectedAnchor: {x: 0.000000014901161, y: -0.5429999}
   m_UseMotor: 0
   m_Motor:
-    m_MotorSpeed: 40
+    m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
   m_UseLimits: 0
   m_AngleLimits:
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 1759627895}
   - component: {fileID: 1759627894}
   - component: {fileID: 1759627893}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: arm (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ HingeJoint2D:
   m_ConnectedAnchor: {x: 0.01999986, y: -0.50999993}
   m_UseMotor: 0
   m_Motor:
-    m_MotorSpeed: 40
+    m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
   m_UseLimits: 0
   m_AngleLimits:
