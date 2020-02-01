@@ -549,7 +549,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47b25b5722fff1842ac99d600d423d60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   player: {fileID: 586975896}
+=======
+  player: {fileID: 106204930}
+>>>>>>> d5fc8d889078fa7ab9d1b6e64271bffbb3df7c8e
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -577,7 +581,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
