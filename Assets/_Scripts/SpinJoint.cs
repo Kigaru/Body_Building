@@ -7,8 +7,14 @@ public class SpinJoint : MonoBehaviour
     HingeJoint2D hinge;
     JointMotor2D motor;
     KeyCode key;
-    public KeyCode button;
-    public KeyCode button2;
+    [SerializeField]
+    private KeyCode p1button;
+    [SerializeField]
+    private KeyCode p1button2;
+    [SerializeField]
+    private KeyCode p2button;
+    [SerializeField]
+    private KeyCode p2button2;
 
     public bool p2;
 
@@ -28,15 +34,14 @@ public class SpinJoint : MonoBehaviour
 
         if (p2 == true)
         {
-            motor = hinge.motor;
 
-            if (Input.GetKey(button2))
+            if (Input.GetKey(p2button2))
             {
                 motor.motorSpeed = 400;
                 hinge.useMotor = true;
 
             }
-            else if (Input.GetKey(KeyCode.K))
+            else if (Input.GetKey(p2button))
             {
                 motor.motorSpeed = -400;
                 hinge.useMotor = true;
@@ -53,13 +58,13 @@ public class SpinJoint : MonoBehaviour
 
         else {
 
-            if (Input.GetKey(button))
+            if (Input.GetKey(p1button))
             {
                 motor.motorSpeed = 400;
                 hinge.useMotor = true;
 
             }
-            else if (Input.GetKey(KeyCode.S))
+            else if (Input.GetKey(p1button2))
             {
                 motor.motorSpeed = -400;
                 hinge.useMotor = true;
