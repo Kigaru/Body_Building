@@ -12,6 +12,7 @@ public class SpinJoint : MonoBehaviour
     [SerializeField]
     private bool player2;
 
+    GameObject parent;
     void Start()
     {
         hinge = GetComponent<HingeJoint2D>();
