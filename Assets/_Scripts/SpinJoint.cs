@@ -17,9 +17,6 @@ public class SpinJoint : MonoBehaviour
     {
         hinge = GetComponent<HingeJoint2D>();
         hinge.useMotor = true;
-
-        parent = GameObject.FindGameObjectWithTag("Head");
-        transform.parent = parent.transform;
     }
 
     void Update()
