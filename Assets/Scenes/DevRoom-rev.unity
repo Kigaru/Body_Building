@@ -149,12 +149,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159650522}
-  m_LocalRotation: {x: -0, y: -0, z: -0.190927, w: 0.9816042}
-  m_LocalPosition: {x: -2.166, y: -0.581, z: 0}
-  m_LocalScale: {x: 0.29534736, y: 0.8972987, z: 0.5360206}
+  m_LocalRotation: {x: -0, y: -0, z: -0.19092701, w: 0.9816043}
+  m_LocalPosition: {x: -6.1508894, y: 1.3260865, z: 0}
+  m_LocalScale: {x: 0.551, y: 1.6740004, z: 1}
   m_Children: []
-  m_Father: {fileID: 1736633517}
-  m_RootOrder: 4
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -22.014002}
 --- !u!114 &159650524
 MonoBehaviour:
@@ -201,7 +201,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.5}
-  m_ConnectedAnchor: {x: 0.558063, y: -0.072361685}
+  m_ConnectedAnchor: {x: 0.55806285, y: -0.07236167}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -478,11 +478,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 438063015}
   m_LocalRotation: {x: -0, y: -0, z: -0.7083607, w: -0.70585066}
-  m_LocalPosition: {x: 1.006, y: 0.014, z: 0}
-  m_LocalScale: {x: 0.29534736, y: 0.8972987, z: 0.5360206}
+  m_LocalPosition: {x: -0.23320627, y: 2.4361186, z: 0}
+  m_LocalScale: {x: 0.551, y: 1.6740004, z: 1}
   m_Children: []
-  m_Father: {fileID: 1736633517}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -269.797}
 --- !u!114 &438063017
 MonoBehaviour:
@@ -529,7 +529,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.03411117, y: 0.52156323}
-  m_ConnectedAnchor: {x: 0.53796923, y: 0.02241334}
+  m_ConnectedAnchor: {x: 2.588257, y: 1.0104432}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -721,11 +721,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629860973}
   m_LocalRotation: {x: -0, y: -0, z: -0.7083607, w: -0.70585066}
-  m_LocalPosition: {x: 1.959, y: 0.017, z: 0}
-  m_LocalScale: {x: 0.29534736, y: 0.8972987, z: 0.5360206}
+  m_LocalPosition: {x: 1.5447104, y: 2.4417152, z: 0}
+  m_LocalScale: {x: 0.551, y: 1.6740004, z: 1}
   m_Children: []
-  m_Father: {fileID: 1736633517}
-  m_RootOrder: 2
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -269.797}
 --- !u!114 &629860975
 MonoBehaviour:
@@ -772,7 +772,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.03411117, y: 0.52156323}
-  m_ConnectedAnchor: {x: 0.032814275, y: -0.5405186}
+  m_ConnectedAnchor: {x: 0.032814275, y: -0.54051864}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -881,11 +881,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 768268237}
   m_LocalRotation: {x: -0, y: -0, z: -0.7111865, w: 0.7030034}
-  m_LocalPosition: {x: -0.966, y: -0.012, z: 0}
-  m_LocalScale: {x: 0.29534736, y: 0.8972987, z: 0.5360206}
+  m_LocalPosition: {x: -3.9121695, y: 2.3876128, z: 0}
+  m_LocalScale: {x: 0.5510001, y: 1.6740007, z: 1}
   m_Children: []
-  m_Father: {fileID: 1736633517}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.663}
 --- !u!114 &768268239
 MonoBehaviour:
@@ -932,7 +932,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.5}
-  m_ConnectedAnchor: {x: -0.5173806, y: -0.017192055}
+  m_ConnectedAnchor: {x: -2.489201, y: 0.81989527}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1751,9 +1751,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.17, y: 0.75}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 2.38
 --- !u!50 &1736633515
 Rigidbody2D:
   serializedVersion: 4
@@ -1774,7 +1774,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 0
 --- !u!212 &1736633516
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1814,8 +1814,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f3735b83e32e55a43b609e172678802e, type: 3}
-  m_Color: {r: 0.24957967, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a1fa74fe6f41328469c7729497edb82d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1833,14 +1833,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736633513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.11, y: 2.41, z: 0}
-  m_LocalScale: {x: 1.8656, y: 1.8656, z: 1.8656}
-  m_Children:
-  - {fileID: 768268238}
-  - {fileID: 438063016}
-  - {fileID: 629860974}
-  - {fileID: 1809586302}
-  - {fileID: 159650523}
+  m_LocalPosition: {x: -2.11, y: 2.06, z: 0}
+  m_LocalScale: {x: 0.38776496, y: 0.38776496, z: 0.38776496}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1873,11 +1868,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809586301}
   m_LocalRotation: {x: -0, y: -0, z: -0.7111865, w: 0.7030034}
-  m_LocalPosition: {x: -1.931, y: -0.001, z: 0}
-  m_LocalScale: {x: 0.29534736, y: 0.8972987, z: 0.5360206}
+  m_LocalPosition: {x: -5.7124734, y: 2.4081345, z: 0}
+  m_LocalScale: {x: 0.5510001, y: 1.6740007, z: 1}
   m_Children: []
-  m_Father: {fileID: 1736633517}
-  m_RootOrder: 3
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.663}
 --- !u!114 &1809586303
 MonoBehaviour:
@@ -1924,7 +1919,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0.5}
-  m_ConnectedAnchor: {x: 0.00056951464, y: -0.5755199}
+  m_ConnectedAnchor: {x: 0.00056950434, y: -0.5755195}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1953,7 +1948,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 0
 --- !u!212 &1809586307
 SpriteRenderer:
   m_ObjectHideFlags: 0
