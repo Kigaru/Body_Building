@@ -5,9 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - ArmPiece
+<<<<<<< HEAD
   - p2Hand
   - p1Hand
   - Grab
+=======
+  - Head
+>>>>>>> e8a8b453bc45ac3fb8b6a20f840ce2ad47832548
   layers:
   - Default
   - TransparentFX
