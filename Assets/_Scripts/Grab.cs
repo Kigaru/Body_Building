@@ -7,7 +7,7 @@ public class Grab : MonoBehaviour
     void OnCollisionStay(Collision stay)
     {
         print("we're in");
-        if (stay.gameObject.tag == "Grabbable")
+        if (stay.gameObject.tag == "Grab")
         {
             if (Input.GetKey(KeyCode.D))
             {

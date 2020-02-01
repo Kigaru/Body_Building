@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ArmPiece
+  - p2Hand
+  - p1Hand
+  - Grab
   layers:
   - Default
   - TransparentFX
