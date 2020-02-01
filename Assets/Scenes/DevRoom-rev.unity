@@ -1050,7 +1050,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0.22, y: -0.03}
-  m_ConnectedAnchor: {x: -28.413164, y: 12.785241}
+  m_ConnectedAnchor: {x: 20.644966, y: 14.785155}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1138,7 +1138,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936391556}
   m_LocalRotation: {x: -0, y: -0, z: 0.9997926, w: -0.020367118}
-  m_LocalPosition: {x: -67.51512, y: 27.542458, z: 0}
+  m_LocalPosition: {x: 59, y: 32.7, z: 0}
   m_LocalScale: {x: 1.420964, y: 4.3170495, z: 2.5788817}
   m_Children: []
   m_Father: {fileID: 1736633517}
@@ -1977,6 +1977,65 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: -0.5, y: 0.4000002, z: 0}
     m_Extent: {x: 6.500001, y: 1.0000002, z: 0}
+--- !u!1 &1736435436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736435438}
+  - component: {fileID: 1736435437}
+  m_Layer: 0
+  m_Name: Swamper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1736435437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736435436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da7cc63a1809fe944ae5789bbabc0bee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 9a09aa5a4811afb4b93d812cc701f8bd, type: 3}
+  - {fileID: 21300000, guid: 13c7843c130bdc64391d753c1a531602, type: 3}
+  - {fileID: 21300000, guid: 5cf7bd0d4fe145d4d9d5c016fe55d78c, type: 3}
+  - {fileID: 21300000, guid: cbed186f61a5af345aa0805363dec864, type: 3}
+  - {fileID: 21300000, guid: de12495bcafdac04b848f8afcac88bb7, type: 3}
+  - {fileID: 21300000, guid: 2c4b72c41b9d75b43a049da17d5d5473, type: 3}
+  - {fileID: 21300000, guid: 17b7dbaf87db4d84bb2f1d073a58ad14, type: 3}
+  - {fileID: 21300000, guid: 508a72299f050d44ab6c6e4e0b46041d, type: 3}
+  - {fileID: 21300000, guid: 728c2c35c09edb343bdb21f72fd1298a, type: 3}
+  - {fileID: 21300000, guid: aeaeab6c286850a4cbf3fbbd048bb496, type: 3}
+  arms:
+  - {fileID: 1440660801710740222, guid: c61677dbd673a664e8c4250bc839a012, type: 3}
+  - {fileID: 6840384982638693369, guid: 41465faac9db49f45955dd7095e5f7c1, type: 3}
+  minX: -30
+  maxX: 20
+--- !u!4 &1736435438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736435436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1736633513
 GameObject:
   m_ObjectHideFlags: 0
