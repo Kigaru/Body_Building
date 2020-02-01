@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1085496211, guid: c61677dbd673a664e8c4250bc839a012, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1440660801710740218, guid: c61677dbd673a664e8c4250bc839a012,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -30,7 +34,27 @@ PrefabInstance:
     - target: {fileID: 1440660801710740222, guid: c61677dbd673a664e8c4250bc839a012,
         type: 3}
       propertyPath: m_Name
-      value: arm (7)
+      value: armLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440660801710740230, guid: c61677dbd673a664e8c4250bc839a012,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440660801710740230, guid: c61677dbd673a664e8c4250bc839a012,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.33
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440660801710740230, guid: c61677dbd673a664e8c4250bc839a012,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -1.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1440660801710740230, guid: c61677dbd673a664e8c4250bc839a012,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.10287231
       objectReference: {fileID: 0}
     - target: {fileID: 1440660801710740231, guid: c61677dbd673a664e8c4250bc839a012,
         type: 3}

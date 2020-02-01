@@ -328,7 +328,7 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: -1.7599589, y: 0.12396847}
-  m_ConnectedAnchor: {x: -5.416277, y: 4.344326}
+  m_ConnectedAnchor: {x: 1.4268672, y: 3.5303745}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -393,6 +393,6 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.58, y: 0}
+  m_Offset: {x: -1.57, y: 0}
   serializedVersion: 2
-  m_Radius: 0.16
+  m_Radius: 0.37

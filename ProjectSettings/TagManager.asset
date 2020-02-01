@@ -6,6 +6,8 @@ TagManager:
   tags:
   - UnconnectedLimb
   - Limb
+  - Grab
+  - LeftLimbCount
   layers:
   - Default
   - TransparentFX

@@ -12,9 +12,15 @@ public class CollideOnPoint : MonoBehaviour
     KeyCode button;
     string leftButtons = "QAZWSXEDCRFVT";
     string rightButtons = "GBYHNUJMIKOLP";
+
+    GameObject leftLimbCount;
+    GameObject RightLimbCount;
     // Start is called before the first frame update
     void Start()
     {
+        leftLimbCount = GameObject.FindGameObjectWithTag("LeftLimbCount");
+        RightLimbCount = GameObject.FindGameObjectWithTag("RightLimbCount");
+
         hinge = GetComponent<HingeJoint2D>();
         hinge.enabled = false;
         GetComponent<SpinJoint>().enabled = false;
@@ -64,24 +70,23 @@ public class CollideOnPoint : MonoBehaviour
             transform.parent = col.transform.parent;
             if(col.GetComponent<SpinJoint>().isPlayerTwo())
             {
+                RightLimbCount.GetComponent<updateNumberText>().updateLimbCount();
                 button = (KeyCode)System.Enum.Parse(typeof(KeyCode), rightButtons[randomInt].ToString());
                 GetComponent<SpinJoint>().setButton(button);
                 GetComponent<SpinJoint>().setPlayerTwo(true);
                 textmeshPro.SetText(rightButtons[randomInt].ToString());
-                Color redish = new Color(255, 198, 198);
-                GetComponent<SpriteRenderer>().color = redish;
+               // GetComponent<SpriteRenderer>().color = Color.red;
             }
             else
             {
+                leftLimbCount.GetComponent<updateNumberText>().updateLimbCount();
                 button = (KeyCode)System.Enum.Parse(typeof(KeyCode), leftButtons[randomInt].ToString());
                 GetComponent<SpinJoint>().setButton(button);
                 GetComponent<SpinJoint>().setPlayerTwo(false);
                 textmeshPro.SetText(leftButtons[randomInt].ToString());
-                GetComponent<SpriteRenderer>().color = new Color(143, 180, 255);
+               // GetComponent<SpriteRenderer>().color = Color.blue;
 
             }
-
         }
-
     }
 }
