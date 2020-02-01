@@ -10,8 +10,9 @@ public class SpinJoint : MonoBehaviour
     private KeyCode button;
 
     [SerializeField]
+    private bool leftHanded;
+    [SerializeField]
     private bool player2;
-
     GameObject parent;
     void Start()
     {
@@ -24,31 +25,53 @@ public class SpinJoint : MonoBehaviour
        motor = hinge.motor;
        if (Input.GetKey(button))
        {
-            if (player2 == true)
+            if (leftHanded == true)
             {
-                motor.motorSpeed = 800;
+                motor.motorSpeed = 1600;
                 hinge.useMotor = true;
             }
             else
             {
-                motor.motorSpeed = -800;
+                motor.motorSpeed = -1600;
                 hinge.useMotor = true;
             }
        }
        else
        {
-            if (player2 == true)
+            if (leftHanded == true)
             {
-                motor.motorSpeed = -400;
+                motor.motorSpeed = -800;
                 hinge.useMotor = true;
             }
             else
             {
-                motor.motorSpeed = 400;
+                motor.motorSpeed = 800;
                 hinge.useMotor = true;
 
             }
        }
             hinge.motor = motor;
+    }
+
+    public bool isPlayerTwo() 
+    {
+        return player2;
+
+    }
+
+    public bool isLeftHanded()
+    {
+        return leftHanded;
+
+    }
+
+    public void setPlayerTwo (bool value)
+    {
+        player2 = value;
+
+    }
+    public void setButton(KeyCode key)
+    {
+        button = key;
     }
 }
