@@ -68,7 +68,8 @@ public class CollideOnPoint : MonoBehaviour
                 GetComponent<SpinJoint>().setButton(button);
                 GetComponent<SpinJoint>().setPlayerTwo(true);
                 textmeshPro.SetText(rightButtons[randomInt].ToString());
-                GetComponent<SpriteRenderer>().color = Color.red;
+                Color redish = new Color(255, 198, 198);
+                GetComponent<SpriteRenderer>().color = redish;
             }
             else
             {
@@ -76,14 +77,9 @@ public class CollideOnPoint : MonoBehaviour
                 GetComponent<SpinJoint>().setButton(button);
                 GetComponent<SpinJoint>().setPlayerTwo(false);
                 textmeshPro.SetText(leftButtons[randomInt].ToString());
-                GetComponent<SpriteRenderer>().color = Color.blue;
-
+                GetComponent<SpriteRenderer>().color = new Color(143, 180, 255);
 
             }
-            //Player 1:
-            //QAZWSXEDCRFVT
-            //Player 2:
-            //GBYHNUJMIKOLP
 
         }
 
