@@ -24,7 +24,9 @@ public class CollideOnPoint : MonoBehaviour
             print("First point that collided: " + transform.InverseTransformPoint(col.contacts[0].point));
             hinge.connectedBody = col.rigidbody;
             hinge.anchor = transform.InverseTransformPoint(col.contacts[0].point);
-            
+            gameObject.tag = "Limb";
+            gameObject.layer = 8;
+
             IsConnected = true;
         }
 
