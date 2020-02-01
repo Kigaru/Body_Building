@@ -12,10 +12,14 @@ public class SpinJoint : MonoBehaviour
     [SerializeField]
     private bool player2;
 
+    GameObject parent;
     void Start()
     {
         hinge = GetComponent<HingeJoint2D>();
         hinge.useMotor = true;
+
+        parent = GameObject.FindGameObjectWithTag("Head");
+        transform.parent = parent.transform;
     }
 
     void Update()
