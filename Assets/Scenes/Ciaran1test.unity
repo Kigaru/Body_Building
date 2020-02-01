@@ -538,8 +538,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 0
-    m_UpperAngle: -180
+    m_LowerAngle: -182.31522
+    m_UpperAngle: -45.54414
 --- !u!50 &695137498
 Rigidbody2D:
   serializedVersion: 4
@@ -700,7 +700,7 @@ HingeJoint2D:
   m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: 0
-    m_UpperAngle: 180
+    m_UpperAngle: 132.09366
 --- !u!50 &855719914
 Rigidbody2D:
   serializedVersion: 4
@@ -830,7 +830,7 @@ HingeJoint2D:
   m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: 0
-    m_UpperAngle: 180
+    m_UpperAngle: -120
 --- !u!50 &912352473
 Rigidbody2D:
   serializedVersion: 4
@@ -1022,7 +1022,7 @@ HingeJoint2D:
   m_UseLimits: 1
   m_AngleLimits:
     m_LowerAngle: 0
-    m_UpperAngle: 180
+    m_UpperAngle: -120
 --- !u!50 &1759627896
 Rigidbody2D:
   serializedVersion: 4
