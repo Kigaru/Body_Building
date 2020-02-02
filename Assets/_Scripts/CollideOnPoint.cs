@@ -27,7 +27,7 @@ public class CollideOnPoint : MonoBehaviour
         textmeshPro = GetComponentInChildren<TextMeshPro>();
     }
 
-    void OnTriggerEnter2D(Collider2D col)
+    private void OnCollisionEnter2D(Collision2D col)
     {
         int randomInt = Random.Range(0, 12);
         print(randomInt);
@@ -35,11 +35,12 @@ public class CollideOnPoint : MonoBehaviour
         {
             hinge.enabled = true;
             GetComponent<SpinJoint>().enabled = true;
-            hinge.connectedBody = col.GetComponent<Rigidbody2D>();
+            hinge.connectedBody = col.gameObject.GetComponent<Rigidbody2D>();
+            hinge.anchor = transform.InverseTransformPoint(col.contacts[0].point);
             gameObject.tag = "Limb";
             gameObject.layer = 8;
             JointAngleLimits2D lim = hinge.limits;
-            if (col.GetComponent<SpinJoint>().isLeftHanded())
+            if (col.gameObject.GetComponent<SpinJoint>().isLeftHanded())
             {
                 if (transform.rotation.eulerAngles.z > 90 && transform.rotation.eulerAngles.z < 180 || transform.rotation.eulerAngles.z < 360 && transform.rotation.eulerAngles.z > 270)
                 {
@@ -56,26 +57,26 @@ public class CollideOnPoint : MonoBehaviour
             {
                 if (transform.rotation.eulerAngles.z > 90 && transform.rotation.eulerAngles.z < 180 || transform.rotation.eulerAngles.z < 360 && transform.rotation.eulerAngles.z > 270)
                 {
-                    lim.max = (transform.rotation.eulerAngles.z - 90 - 120)*-1;
-                    lim.min = (transform.rotation.eulerAngles.z - 90)*-1;
+                    lim.max = (transform.rotation.eulerAngles.z - 90 - 120) * -1;
+                    lim.min = (transform.rotation.eulerAngles.z - 90) * -1;
                 }
                 else
                 {
-                    lim.max = (transform.rotation.eulerAngles.z)*-1;
-                    lim.min = (transform.rotation.eulerAngles.z - 120)*-1;
+                    lim.max = (transform.rotation.eulerAngles.z) * -1;
+                    lim.min = (transform.rotation.eulerAngles.z - 120) * -1;
                 }
             }
             hinge.limits = lim;
             IsConnected = true;
             transform.parent = col.transform.parent;
-            if(col.GetComponent<SpinJoint>().isPlayerTwo())
+            if (col.gameObject.GetComponent<SpinJoint>().isPlayerTwo())
             {
                 RightLimbCount.GetComponent<updateNumberText>().updateLimbCount();
                 button = (KeyCode)System.Enum.Parse(typeof(KeyCode), rightButtons[randomInt].ToString());
                 GetComponent<SpinJoint>().setButton(button);
                 GetComponent<SpinJoint>().setPlayerTwo(true);
                 textmeshPro.SetText(rightButtons[randomInt].ToString());
-               // GetComponent<SpriteRenderer>().color = Color.red;
+                // GetComponent<SpriteRenderer>().color = Color.red;
             }
             else
             {
@@ -84,7 +85,7 @@ public class CollideOnPoint : MonoBehaviour
                 GetComponent<SpinJoint>().setButton(button);
                 GetComponent<SpinJoint>().setPlayerTwo(false);
                 textmeshPro.SetText(leftButtons[randomInt].ToString());
-               // GetComponent<SpriteRenderer>().color = Color.blue;
+                // GetComponent<SpriteRenderer>().color = Color.blue;
 
             }
         }
