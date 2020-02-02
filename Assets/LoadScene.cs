@@ -9,7 +9,7 @@ public class LoadScene : MonoBehaviour
 
     public void LoadLimbRant()
     {
-        SceneManager.LoadScene("Limberick");
+        SceneManager.LoadScene("Limbyrinth");
     }
     public void LoadVerses()
     {
