@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelMenu.unity
     guid: c2bb58773987de8438a706798d5d7d84
   - enabled: 1
-    path: Assets/Scenes/Limberick.unity
+    path: Assets/Scenes/Limbyrinth.unity
     guid: d3aae4696859172468b26c8a786503b7
   - enabled: 1
     path: Assets/Scenes/VsRace.unity

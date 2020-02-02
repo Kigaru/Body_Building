@@ -12,6 +12,8 @@ public class getOutOfMySwampOrIBiteYourArmOff : MonoBehaviour
     float minX, maxX;
     [SerializeField]
     float waitTime = 0.5f;
+    [SerializeField]
+    GameObject player;
 
     private IEnumerator coroutine;
         
@@ -25,8 +27,8 @@ public class getOutOfMySwampOrIBiteYourArmOff : MonoBehaviour
     {
         while (true)
         {
-            float pos = Random.Range(minX, maxX);
-            GameObject arm = Instantiate(arms[Random.Range(0, 1)],new Vector3(pos,10,0),Quaternion.identity);
+            float posX = Random.Range(player.transform.position.x + minX, player.transform.position.x + maxX); ;
+            GameObject arm = Instantiate(arms[Random.Range(0, 1)],new Vector3(posX,player.transform.position.y + 10,0),Quaternion.identity);
             arm.GetComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Length - 1)];
             yield return new WaitForSeconds(waitTime);
         }
