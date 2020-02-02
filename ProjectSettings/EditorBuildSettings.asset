@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VsRace.unity
     guid: c5153319c2f4f66488a58c28aacf8c46
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 777dee9c403a798499e0bbd2f5cff403
   m_configObjects: {}
