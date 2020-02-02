@@ -219,7 +219,6 @@ GameObject:
   - component: {fileID: 1440660801710740219}
   - component: {fileID: 1440660801710740220}
   - component: {fileID: 1440660801710740221}
-  - component: {fileID: 1440660801710740230}
   m_Layer: 9
   m_Name: armRight
   m_TagString: UnconnectedLimb
@@ -380,19 +379,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b88ddec74a898b043a04fa01761f5a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &1440660801710740230
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440660801710740222}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -1.61, y: 0.03}
-  serializedVersion: 2
-  m_Radius: 0.19133174
