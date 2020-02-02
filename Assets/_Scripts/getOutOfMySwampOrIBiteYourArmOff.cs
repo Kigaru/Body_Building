@@ -10,16 +10,18 @@ public class getOutOfMySwampOrIBiteYourArmOff : MonoBehaviour
     GameObject[] arms;
     [SerializeField]
     float minX, maxX;
+    [SerializeField]
+    float waitTime = 0.5f;
 
     private IEnumerator coroutine;
         
     void Start()
     {
-        coroutine = WaitAndPrint(5.0f);
+        coroutine = WaitAndPrint();
         StartCoroutine(coroutine);
     }
 
-    private IEnumerator WaitAndPrint(float waitTime)
+    private IEnumerator WaitAndPrint()
     {
         while (true)
         {
