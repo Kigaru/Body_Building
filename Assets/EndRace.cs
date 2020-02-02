@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class EndRace : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public TextMeshPro textmeshProWin;
+    public GameObject fall;
+    public string winText;
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (collision.gameObject.tag == "Limb")
+        {
+            textmeshProWin.SetText(winText);
+            fall.AddComponent<Rigidbody2D>();
+        }
     }
 }
