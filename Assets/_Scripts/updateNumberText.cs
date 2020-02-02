@@ -7,6 +7,7 @@ public class updateNumberText : MonoBehaviour
 {
     public int LimbsCount = 0;
     TextMeshProUGUI textmeshPro;
+    public string side;
 
     private void Start()
     {
@@ -15,6 +16,6 @@ public class updateNumberText : MonoBehaviour
     public void updateLimbCount()
     {
         LimbsCount++;
-        textmeshPro.SetText("LEFT LIMBS: " + LimbsCount);
+        textmeshPro.SetText(side + LimbsCount);
     }
 }
