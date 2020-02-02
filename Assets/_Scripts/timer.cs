@@ -17,6 +17,7 @@ public class timer : MonoBehaviour
     void Update()
     {
         time += Time.deltaTime;
-        textmeshPro.SetText(time.ToString());
+       
+        textmeshPro.SetText((time % 120).ToString("f2"));
     }
 }
