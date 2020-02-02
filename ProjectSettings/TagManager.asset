@@ -9,6 +9,8 @@ TagManager:
   - Grab
   - LeftLimbCount
   - RightLimbCount
+  - ArmPiece
+  - Pause Menu
   layers:
   - Default
   - TransparentFX
