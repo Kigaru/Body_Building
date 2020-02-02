@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5898858979802178348
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6034629756629713233}
+  - component: {fileID: 4911150023423152454}
+  m_Layer: 0
+  m_Name: Screamer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6034629756629713233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5898858979802178348}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.0149345, y: 3.3068137, z: -259.90625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4911150023423152454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5898858979802178348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bbbc4e97e3a6fa4e9ceb52a7c376a1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  screams:
+  - {fileID: 8300000, guid: f543f2e2bb1ed284694058a572f74d38, type: 3}
+  - {fileID: 8300000, guid: 4ed4c4b3c63d225499e7005386a66863, type: 3}
+  - {fileID: 8300000, guid: 8bb15660d16e135479c7bad9fa304189, type: 3}
+  - {fileID: 8300000, guid: 6e5b7317cdbdd12489877064652ad5de, type: 3}
+  - {fileID: 8300000, guid: 1df6024671e11bc41aa89a4c4e88f60e, type: 3}
+  - {fileID: 8300000, guid: e032ff960eb76004dbd3881e0c0b7f84, type: 3}
+  - {fileID: 8300000, guid: 3c190f9a6b001b64d8463e308d6c1012, type: 3}
+  - {fileID: 8300000, guid: 0550f4c7c08098747b2bd21901e1a40d, type: 3}
+  - {fileID: 8300000, guid: c22f1c60dab238649be27985cad06234, type: 3}
