@@ -22,6 +22,9 @@ public class SpinJoint : MonoBehaviour
 
     void Update()
     {
+
+
+
        motor = hinge.motor;
        if (Input.GetKey(button))
        {

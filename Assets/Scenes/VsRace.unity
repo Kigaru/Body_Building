@@ -1699,6 +1699,7 @@ GameObject:
   - component: {fileID: 569751860}
   - component: {fileID: 569751859}
   - component: {fileID: 569751858}
+  - component: {fileID: 569751863}
   m_Layer: 8
   m_Name: arm (4)
   m_TagString: Limb
@@ -1846,6 +1847,26 @@ Transform:
   m_Father: {fileID: 907042492}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -181.67}
+--- !u!114 &569751863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569751856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6161bf9920923e42b4dcae617868e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crash:
+  - {fileID: 8300000, guid: 5bc62f70d6afab44c9f95daee69abd9a, type: 3}
+  - {fileID: 8300000, guid: 8af3e6499d5427e45bd0cb47cada4576, type: 3}
+  - {fileID: 8300000, guid: e780058495d1cfe4d8aa3850b0a82c7a, type: 3}
+  - {fileID: 8300000, guid: cc4d7ed22ec494e49949e72e509aa27f, type: 3}
+  - {fileID: 8300000, guid: 00f7803aeb6e37742bdedbeea35babb4, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
 --- !u!1 &594873595
 GameObject:
   m_ObjectHideFlags: 0
@@ -26564,6 +26585,7 @@ GameObject:
   - component: {fileID: 1115977234}
   - component: {fileID: 1115977233}
   - component: {fileID: 1115977232}
+  - component: {fileID: 1115977237}
   m_Layer: 8
   m_Name: arm (5)
   m_TagString: Limb
@@ -26711,6 +26733,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1115977237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1115977230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6161bf9920923e42b4dcae617868e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crash:
+  - {fileID: 8300000, guid: 5bc62f70d6afab44c9f95daee69abd9a, type: 3}
+  - {fileID: 8300000, guid: 8af3e6499d5427e45bd0cb47cada4576, type: 3}
+  - {fileID: 8300000, guid: e780058495d1cfe4d8aa3850b0a82c7a, type: 3}
+  - {fileID: 8300000, guid: cc4d7ed22ec494e49949e72e509aa27f, type: 3}
+  - {fileID: 8300000, guid: 00f7803aeb6e37742bdedbeea35babb4, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
 --- !u!1 &1205600771
 GameObject:
   m_ObjectHideFlags: 0
@@ -26725,6 +26767,7 @@ GameObject:
   - component: {fileID: 1205600775}
   - component: {fileID: 1205600774}
   - component: {fileID: 1205600773}
+  - component: {fileID: 1205600778}
   m_Layer: 8
   m_Name: arm (2)
   m_TagString: Limb
@@ -26872,6 +26915,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1205600778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205600771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6161bf9920923e42b4dcae617868e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crash:
+  - {fileID: 8300000, guid: 5bc62f70d6afab44c9f95daee69abd9a, type: 3}
+  - {fileID: 8300000, guid: 8af3e6499d5427e45bd0cb47cada4576, type: 3}
+  - {fileID: 8300000, guid: e780058495d1cfe4d8aa3850b0a82c7a, type: 3}
+  - {fileID: 8300000, guid: cc4d7ed22ec494e49949e72e509aa27f, type: 3}
+  - {fileID: 8300000, guid: 00f7803aeb6e37742bdedbeea35babb4, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
 --- !u!1 &1210222275
 GameObject:
   m_ObjectHideFlags: 0
@@ -27527,6 +27590,7 @@ GameObject:
   - component: {fileID: 2029973662}
   - component: {fileID: 2029973661}
   - component: {fileID: 2029973660}
+  - component: {fileID: 2029973665}
   m_Layer: 8
   m_Name: arm (1)
   m_TagString: Limb
@@ -27674,6 +27738,26 @@ Transform:
   m_Father: {fileID: 907042492}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -177.04102}
+--- !u!114 &2029973665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029973658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6161bf9920923e42b4dcae617868e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crash:
+  - {fileID: 8300000, guid: 5bc62f70d6afab44c9f95daee69abd9a, type: 3}
+  - {fileID: 8300000, guid: 8af3e6499d5427e45bd0cb47cada4576, type: 3}
+  - {fileID: 8300000, guid: e780058495d1cfe4d8aa3850b0a82c7a, type: 3}
+  - {fileID: 8300000, guid: cc4d7ed22ec494e49949e72e509aa27f, type: 3}
+  - {fileID: 8300000, guid: 00f7803aeb6e37742bdedbeea35babb4, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
 --- !u!1 &2031143651
 GameObject:
   m_ObjectHideFlags: 0

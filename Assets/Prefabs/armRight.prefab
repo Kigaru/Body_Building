@@ -219,6 +219,7 @@ GameObject:
   - component: {fileID: 1440660801710740219}
   - component: {fileID: 1440660801710740220}
   - component: {fileID: 1440660801710740221}
+  - component: {fileID: -1551747608242058988}
   m_Layer: 9
   m_Name: armRight
   m_TagString: UnconnectedLimb
@@ -288,7 +289,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &1440660801710740217
@@ -379,3 +380,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b88ddec74a898b043a04fa01761f5a79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-1551747608242058988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440660801710740222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6161bf9920923e42b4dcae617868e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  crash:
+  - {fileID: 8300000, guid: 5bc62f70d6afab44c9f95daee69abd9a, type: 3}
+  - {fileID: 8300000, guid: 8af3e6499d5427e45bd0cb47cada4576, type: 3}
+  - {fileID: 8300000, guid: e780058495d1cfe4d8aa3850b0a82c7a, type: 3}
+  - {fileID: 8300000, guid: cc4d7ed22ec494e49949e72e509aa27f, type: 3}
+  - {fileID: 8300000, guid: 00f7803aeb6e37742bdedbeea35babb4, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}
+  - {fileID: 8300000, guid: 82aa30169245c0048a808ffdb60fd007, type: 3}

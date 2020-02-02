@@ -11,7 +11,7 @@ public class SoundCaller : MonoBehaviour
 
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     void Update()
@@ -23,7 +23,7 @@ public class SoundCaller : MonoBehaviour
 
     }
 
-    void playArmSlap()
+    public void playArmSlap()
     {
         clipChoice = Random.Range(0, slapSounds.Length-1);
         audioSource.PlayOneShot(slapSounds[clipChoice]);
